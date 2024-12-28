@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGround"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="335dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/reem_kufi"
+        android:text="We want to know your name so we can address you"
+        android:textColor="@color/welcomeTo"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="335dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/reem_kufi"
+        android:text="Your Name"
+        android:textColor="@color/welcomeTo"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="400dp"
+        android:layout_height="73dp"
+        android:background="@drawable/edittextbackground"
+        android:ems="10"
+        android:fontFamily="@font/reem_kufi"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColorHint="@color/textColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="387dp"
+        android:layout_height="59dp"
+        android:background="@drawable/buttonbackground"
+        android:text="@string/button"
+        android:textColor="@color/white"
+        android:textColorLink="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextDate3"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="@+id/editTextDate2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        app:layout_constraintVertical_bias="0.955" />
+
+    <EditText
+        android:id="@+id/editTextDate2"
+        android:layout_width="190dp"
+        android:layout_height="55dp"
+        android:background="@drawable/edittextbackground"
+        android:ems="10"
+        android:fontFamily="@font/reem_kufi"
+        android:hint="@string/day"
+        android:inputType="date"
+        android:textColorHint="@color/textColor"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editTextDate3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.401" />
+
+    <EditText
+        android:id="@+id/editTextDate3"
+        android:layout_width="190dp"
+        android:layout_height="55dp"
+        android:background="@drawable/edittextbackground"
+        android:ems="10"
+        android:fontFamily="@font/reem_kufi"
+        android:hint="@string/month"
+        android:inputType="date"
+        android:textColorHint="@color/textColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextText"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.401" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/reem_kufi_semibold"
+        android:text="Welcome to"
+        android:textColor="@color/welcomeTo"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="205dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/reem_kufi_semibold"
+        android:text="CAFFÉ DOLC’E"
+        android:textColor="@color/orange"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="395dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="28dp"
+        android:fontFamily="@font/reem_kufi"
+        android:text="We want to know your  birthday  to  gift  you  coffee"
+        android:textColor="@color/welcomeTo"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="143dp"
+        android:layout_height="19dp"
+        android:fontFamily="@font/reem_kufi"
+        android:text="Your Birthday"
+        android:textColor="@color/welcomeTo"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="297dp"
+        android:layout_height="258dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/img_3"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="225dp"
+        android:layout_height="237dp"
+        app:srcCompat="@drawable/img_4"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="639dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

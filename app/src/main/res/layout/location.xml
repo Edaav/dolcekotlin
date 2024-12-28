@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGround">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="442dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="364dp"
+        android:background="@drawable/buttonbackground"
+        android:text="Go to Map"
+        android:textColor="@color/white"
+        android:textColorLink="@color/black"
+        android:textSize="15dp"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextDate3"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="@+id/editTextDate2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        app:layout_constraintVertical_bias="0.955" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="139dp"
+        android:layout_height="63dp"
+        android:fontFamily="@font/reem_kufi_semibold"
+        android:text="Location"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="64dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img_7"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="439dp"
+        android:layout_height="62dp"
+        android:fontFamily="@font/reem_kufi_semibold"
+        android:text="Çıldır  Mahallesi  Org.  Mustafa  Muğlalı  Caddesi  No:80  Marmaris"
+        android:textColor="@color/welcomeTo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="112dp"
+        android:layout_height="142dp"
+        android:layout_marginEnd="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/img_8"
+        tools:layout_editor_absoluteY="691dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

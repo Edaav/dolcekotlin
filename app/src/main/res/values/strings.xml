@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="name">Name</string>
+    <string name="day">Day</string>
+    <string name="month">Month</string>
+    <string name="button">Continue</string>
+
+</resources>
